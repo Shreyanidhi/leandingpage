@@ -1,0 +1,100 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+header{
+    background-image:url("paris.jpg");
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size:cover;
+    background-position:center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin: 25px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color:crimson;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color:brown;
+    color:black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: rgb(7, 29, 49);
+    color:chocolate;
+
+}
+.text{
+    max-width: 650px;
+    margin-top: 250px;
+    margin-left: 530px;
+    position: absolute;
+    transform: translate(10%,50%);
+    text-align: center;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{position: absolute;
+    color:deeppink;
+    font-size: 1.4rem;
+    font-family:arial, sans-serif;
+    
+}
+
+
+#bt1{
+    background-color: transparent;
+    border:1px solid rgb(48, 32, 7);
+    color:darkblue;
+    padding: 10px;
+    text-decoration:none;
+
+   
+}
+
+#bt2{
+    background-color: transparent;
+    border:1px solid rgb(48, 32, 7);
+    color:darkblue;
+    padding: 10px;
+    text-decoration: none;
+ 
+
+   
+}
+
+#bt1:hover{
+    background-color: black;
+    color: chocolate;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color: black;
+    color: chocolate;
+    transition: 0.6s ease;
+}
+
+
+
+
+
+
+
